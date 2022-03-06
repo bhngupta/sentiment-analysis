@@ -1,6 +1,6 @@
 # Sentiment-Analysis
 
-This Project now have 2 components:
+Components:
 
 1. Learn Sentiment analysis on Yelp reviews using pytorch deep learning models. The idea is to learn the basics of NLP.
 2. A small project to compare Rule based and ML based sentiment analysis techniques(a binary classification problem)
@@ -31,7 +31,7 @@ The purpose of this notebook is to go through all the basics for an NLP task. Th
 
 1. **Data Processing**: Process the raw data, convert it to a pandas dataframe, and manipulate the data according to your need and save it to another csv file.
 2. **Data Vectorization**: The process of converting the text reviews to a vector of intergers using one hot encoding. Deep learning models do not accept any textual inputs rather you need to feed the inputs as intgers or floats.
-3. **Data vocabulary**: we need to create a vocabulary for an NLP task, because our model can learn only from the words it has seen so far and their position in the text as well. so for this purpose we need to know which word come how many times in a text, where it appear in the text. we store all such information in a python dictionary
+3. **Data Vocabulary**: we need to create a vocabulary for an NLP task, because our model can learn only from the words it has seen so far and their position in the text as well. so for this purpose we need to know which word come how many times in a text, where it appear in the text. we store all such information in a python dictionary
 4. **Data processing in pytorch**: We process the data in pytorch in using torch dataloader by input our dataset, batch_size. It automatically converts the dataset in batches of tensors for us. so we need not to split the dataset in batches separately. It also handles the autograd for us. In short we are missing out:
   * Batching the data
   * Shuffling the data
