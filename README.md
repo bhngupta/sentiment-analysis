@@ -2,8 +2,7 @@
 
 Components:
 
-1. Learn Sentiment analysis on Yelp reviews using pytorch deep learning models. The idea is to learn the basics of NLP.
-2. A small project to compare Rule based and ML based sentiment analysis techniques(a binary classification problem)
+1. A small project to compare Rule based and ML based sentiment analysis techniques(a binary classification problem)
 
 
 ### Contents:
